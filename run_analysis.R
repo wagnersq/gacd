@@ -94,4 +94,4 @@ downloaded_file <- "./Dataset.zip"
 downloadDataSet(downloaded_file)
 uncompressDatasetFile(dataDirectory, downloaded_file)
 summary <- createSummaryDataset(dataDirectory)
-write.table(summary, "tidy.txt")
+write.table(summary, "tidy.txt", sep=" ", row.names=FALSE)
