@@ -11,3 +11,13 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+
+# Mac OS Zip Dir Temp
+__MACOSX
+
+# Dataset dir and files
+UCI HAR Dataset
+Dataset.zip
+
+# Old Scripts
+*.old
